@@ -1,0 +1,36 @@
+{
+  "schema": "PAL98.DLSS5Lab.SourceBaseline.v1",
+  "baseline_id": "pal98-v1.61-20260904-classic-v5-observed",
+  "source_package": "PAL98_v1.61_20260904",
+  "observed_at": "2026-09-04T00:00:00+08:00",
+  "files": [
+    {
+      "path": "PAL.EXE",
+      "sha256": "75D612B9CBD9C1F0884F18C9A6D2EE522B227F2F6B3DA92495BAE8F73161C450"
+    },
+    {
+      "path": "PAL.dll",
+      "sha256": "4B99351416EB34A33DBB33E832B72BAB463D218E7EC4571CC9EED56995F88D55"
+    },
+    {
+      "path": "PALOLD.dll",
+      "sha256": "C6A34E511ED1C7BB2ECDDFAABA00992D53006DB3ED4B5AB3DA61943B417227E8"
+    },
+    {
+      "path": "ddraw.dll",
+      "sha256": "8F942204E0C0ED772BBCB118328B5EBB5EB0E1F1F9D1CBED73F0ECD3D2DB2E7C"
+    },
+    {
+      "path": "dxwrapper.dll",
+      "sha256": "CA76BC2989FE07F1BFE65ECB8FC057766DE5FA99563039171CD3C0CD1E1410F3"
+    },
+    {
+      "path": "config.ini",
+      "sha256": "AD0561B41C67A09DE56E1D5FEE5E646EC40C1C8E11A00FA7153AE4C57B8EB0C0"
+    },
+    {
+      "path": "dxwrapper.ini",
+      "sha256": "2EC598DE2BC4F8ACD5F060B5DD77A782FCA00EEF93F89C1E0885FE5EB5C8DE63"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "schema": "PAL98.DLSS5Lab.DependencyBundle.v1",
+  "bundle_id": "replace-with-local-bundle-id",
+  "files": [
+    {
+      "path": "payload/common/dxgi-x86.dll",
+      "destination": "dxgi.dll",
+      "role": "reshade_x86",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "https://reshade.me/",
+      "license": "record-the-exact-license",
+      "redistribution": "unknown"
+    },
+    {
+      "path": "payload/common/dlss5-feed.addon32",
+      "destination": "dlss5-feed.addon32",
+      "role": "feeder_addon32",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "https://github.com/jlrouzies-fr/DLSS5-Feeder/releases",
+      "license": "MIT",
+      "redistribution": "redistributable"
+    },
+    {
+      "path": "payload/common/DLSS5_Feed.fx",
+      "destination": "reshade-shaders/Shaders/DLSS5_Feed.fx",
+      "role": "feeder_shader",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "https://github.com/jlrouzies-fr/DLSS5-Feeder/releases",
+      "license": "MIT",
+      "redistribution": "redistributable"
+    },
+    {
+      "path": "payload/common/ReShade.fxh",
+      "destination": "reshade-shaders/Shaders/ReShade.fxh",
+      "role": "reshade_fxh",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "https://github.com/crosire/reshade-shaders/tree/slim/Shaders",
+      "license": "BSD-3-Clause",
+      "redistribution": "redistributable"
+    },
+    {
+      "path": "payload/common/ReShadeUI.fxh",
+      "destination": "reshade-shaders/Shaders/ReShadeUI.fxh",
+      "role": "reshade_ui_fxh",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "https://github.com/crosire/reshade-shaders/tree/slim/Shaders",
+      "license": "BSD-3-Clause",
+      "redistribution": "redistributable"
+    },
+    {
+      "path": "payload/common/DrawText.fxh",
+      "destination": "reshade-shaders/Shaders/DrawText.fxh",
+      "role": "drawtext_fxh",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "https://github.com/crosire/reshade-shaders/tree/slim/Shaders",
+      "license": "BSD-3-Clause",
+      "redistribution": "redistributable"
+    },
+    {
+      "path": "payload/common/lumenite_Kernel.fx",
+      "destination": "reshade-shaders/Shaders/lumenite_Kernel.fx",
+      "role": "motion_vectors",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "record-the-exact-upstream-url",
+      "license": "record-the-exact-license",
+      "redistribution": "unknown"
+    },
+    {
+      "path": "payload/common/lumenite_Projections.fxh",
+      "destination": "reshade-shaders/Shaders/include/lumenite_Projections.fxh",
+      "role": "motion_vectors",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "https://github.com/umar-afzaal/LumeniteFX/tree/mainline/Shaders/include",
+      "license": "AGNYA License; verify redistribution terms",
+      "redistribution": "unknown"
+    },
+    {
+      "path": "payload/common/lumenite_Helpers.fxh",
+      "destination": "reshade-shaders/Shaders/include/lumenite_Helpers.fxh",
+      "role": "motion_vectors",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "https://github.com/umar-afzaal/LumeniteFX/tree/mainline/Shaders/include",
+      "license": "AGNYA License; verify redistribution terms",
+      "redistribution": "unknown"
+    },
+    {
+      "path": "payload/common/lumenite_Compute.fxh",
+      "destination": "reshade-shaders/Shaders/include/lumenite_Compute.fxh",
+      "role": "motion_vectors",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "https://github.com/umar-afzaal/LumeniteFX/tree/mainline/Shaders/include",
+      "license": "AGNYA License; verify redistribution terms",
+      "redistribution": "unknown"
+    },
+    {
+      "path": "payload/common/dlss5-feed-host64.exe",
+      "destination": "host64/dlss5-feed-host64.exe",
+      "role": "host64_exe",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "https://github.com/jlrouzies-fr/DLSS5-Feeder/releases",
+      "license": "MIT",
+      "redistribution": "redistributable"
+    },
+    {
+      "path": "payload/common/dxgi-x64.dll",
+      "destination": "host64/dxgi.dll",
+      "role": "reshade_x64",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "https://reshade.me/",
+      "license": "record-the-exact-license",
+      "redistribution": "unknown"
+    },
+    {
+      "path": "payload/common/renodx-dlss5.addon64",
+      "destination": "host64/renodx-dlss5.addon64",
+      "role": "neural_consumer",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "record-the-exact-source",
+      "license": "record-the-exact-license",
+      "redistribution": "unknown"
+    },
+    {
+      "path": "payload/common/nvngx_dlssnr.dll",
+      "destination": "host64/nvngx_dlssnr.dll",
+      "role": "nvngx_dlssnr",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "record-the-exact-authorized-source",
+      "license": "record-the-exact-license",
+      "redistribution": "unknown"
+    },
+    {
+      "path": "payload/common/nvngx_dlss.dll",
+      "destination": "host64/nvngx_dlss.dll",
+      "role": "nvngx_dlss",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "record-the-exact-authorized-source",
+      "license": "record-the-exact-license",
+      "redistribution": "unknown"
+    },
+    {
+      "path": "payload/dxwrapper-chain/D3D9.dll",
+      "destination": "d3d9.dll",
+      "role": "dgvoodoo_d3d9_x86",
+      "routes": ["DxwrapperD3D9Chain"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "http://dege.freeweb.hu/dgVoodoo2/",
+      "license": "record-the-exact-license",
+      "redistribution": "unknown"
+    },
+    {
+      "path": "payload/direct-ddraw/DDraw.dll",
+      "destination": "ddraw.dll",
+      "role": "dgvoodoo_ddraw_x86",
+      "routes": ["DgVoodooDirectDraw"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "http://dege.freeweb.hu/dgVoodoo2/",
+      "license": "record-the-exact-license",
+      "redistribution": "unknown"
+    },
+    {
+      "path": "payload/common/dgVoodoo.conf",
+      "destination": "dgVoodoo.conf",
+      "role": "dgvoodoo_config",
+      "routes": ["all"],
+      "sha256": "REPLACE_WITH_SHA256",
+      "source_url": "http://dege.freeweb.hu/dgVoodoo2/",
+      "license": "record-the-exact-license",
+      "redistribution": "unknown"
+    }
+  ]
+}

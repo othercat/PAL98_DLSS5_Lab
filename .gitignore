@@ -1,0 +1,17 @@
+# Generated game packages and test output
+/artifacts/
+/test-output/
+
+# Locally supplied third-party components. Never commit these by accident.
+/dependency-bundle/
+
+# Local diagnostics
+*.log
+*.dmp
+*.zip
+
+# Editor and OS noise
+.vs/
+.vscode/
+Thumbs.db
+Desktop.ini
